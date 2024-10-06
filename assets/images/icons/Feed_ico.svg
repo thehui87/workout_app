@@ -1,0 +1,15 @@
+<svg 
+  width="32" 
+  xmlns="http://www.w3.org/2000/svg" 
+  height="32" 
+  viewBox="1603.008 1110 32 32" 
+  fill="none">
+  <g 
+    class="fills" 
+    data-testid="svg-path">
+    <path 
+      d="M1606.008 1137.5h1.525a4.91 4.91 0 0 1-.025-.5v-22c0-2.76 2.24-5 5-5h17.5c2.76 0 5 2.24 5 5v22c0 2.76-2.24 5-5 5h-24v-4.5Zm4-24.5v6.5h22.5v-6.5h-22.5Zm0 8v6.5h10v-6.5h-10Zm0 8v2.5h22.5v-2.5h-22.5Zm11.5-8v2.5h11v-2.5h-11Zm-11.5 12v2.5h22.5v-2.5h-22.5Zm11.5-8v2.5h11v-2.5h-11Zm-15.5 17c-1.656 0-3-1.344-3-3v-20c0-1.656 1.344-3 3-3v21.5" 
+      class="fills"
+      style="fill: rgb(177, 178, 181); fill-opacity: 1;"/>
+  </g>
+</svg>

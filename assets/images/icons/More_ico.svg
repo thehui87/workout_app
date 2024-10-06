@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666664 8.4666666"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <circle
+     style="fill:#b1b2b5;fill-opacity:1;stroke-width:3.417;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path2"
+     cx="1.0583333"
+     cy="4.2333331"
+     r="1.0583333" />
+  <circle
+     style="fill:#b1b2b5;fill-opacity:1;stroke-width:3.417;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="circle2"
+     cx="4.2333331"
+     cy="4.2333331"
+     r="1.0583333" />
+  <circle
+     style="fill:#b1b2b5;fill-opacity:1;stroke-width:3.417;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="circle3"
+     cx="7.4083333"
+     cy="4.2333331"
+     r="1.0583333" />
+</svg>
