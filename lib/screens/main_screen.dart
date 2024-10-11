@@ -159,15 +159,15 @@ class _MainScreenState extends ConsumerState<MainScreen> {
           children: <Widget>[
             // _buildNavItem(context, Icons.home, 0),
             _buildNavItem(
-                context, 'images/icons/Home_ico.svg', 0), // Icons.home
-            _buildNavItem(context, 'images/icons/Planner_ico.svg',
+                context, 'assets/images/icons/Home_ico.svg', 0), // Icons.home
+            _buildNavItem(context, 'assets/images/icons/Planner_ico.svg',
                 1), // Icons.fitness_center
             _buildNavItem(
-                context, 'images/icons/Feed_ico.svg', 2), // Icons.list
-            _buildNavItem(context, 'images/icons/Calendar_ico.svg',
+                context, 'assets/images/icons/Feed_ico.svg', 2), // Icons.list
+            _buildNavItem(context, 'assets/images/icons/Calendar_ico.svg',
                 3), // Icons.calendar_today
-            _buildNavItem(
-                context, 'images/icons/More_ico.svg', 4), // Icons.more_horiz
+            _buildNavItem(context, 'assets/images/icons/More_ico.svg',
+                4), // Icons.more_horiz
             // _buildNavItem(Icons.fitness_center, 3),
           ],
         ),

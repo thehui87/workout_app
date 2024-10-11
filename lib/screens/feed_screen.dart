@@ -9,8 +9,6 @@ class FeedScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // final workouts = ref.watch(workoutProvider);
-
     return Scaffold(
       // appBar: AppBar(title: Text('Feed')),
       body: Center(

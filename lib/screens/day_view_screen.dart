@@ -87,16 +87,6 @@ class DayViewScreenState extends ConsumerState<DayViewScreen> {
               ),
             ]),
             SizedBox(height: 20),
-            Expanded(
-              child: ListView.builder(
-                itemCount: events.length,
-                itemBuilder: (context, index) {
-                  return ListTile(
-                    title: Text(events[index].title),
-                  );
-                },
-              ),
-            ),
             TextField(
               controller: _eventController,
               decoration: InputDecoration(
@@ -122,6 +112,16 @@ class DayViewScreenState extends ConsumerState<DayViewScreen> {
                 }
               },
               child: Text('Add Event'),
+            ),
+            Expanded(
+              child: ListView.builder(
+                itemCount: events.length,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    title: Text(events[index].title),
+                  );
+                },
+              ),
             ),
           ],
         ),

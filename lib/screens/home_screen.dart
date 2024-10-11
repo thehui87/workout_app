@@ -9,8 +9,6 @@ class HomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // final workouts = ref.watch(workoutProvider);
-
     return Scaffold(
       // appBar: AppBar(title: const Text('Workout App')),
       body: Center(child: Text('Welcome Home!')),

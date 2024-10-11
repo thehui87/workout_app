@@ -17,7 +17,7 @@ class ProfileScreen extends StatelessWidget {
             CircleAvatar(
               radius: 50,
               backgroundImage: AssetImage(
-                'images/bg1test.png', // Correct path to your PNG
+                'assets/images/bg1test.png', // Correct path to your PNG
               ),
             ),
             //    NetworkImage(

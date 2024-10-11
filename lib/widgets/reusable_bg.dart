@@ -27,7 +27,7 @@ class ReusableBG extends ConsumerWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
               image: AssetImage(
-                'images/seamlessbg.jpg',
+                'assets/images/seamlessbg.jpg',
               ), // Your background image
               // fit: BoxFit.cover, // Cover the entire screen
               fit: BoxFit.scaleDown, // Cover the entire screen

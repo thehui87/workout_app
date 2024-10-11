@@ -34,6 +34,11 @@ dependencies:
   flutter_svg: ^2.0.10+1
   table_calendar: ^3.1.2
   intl: ^0.19.0
+  pdf: ^3.11.1
+  printing: ^5.13.3
+  share_plus: ^10.0.2
+  path_provider: ^2.1.4
+  fl_chart: ^0.69.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -65,11 +70,16 @@ flutter:
     - assets/images/bg1test.png
     - assets/images/logo.svg
     - assets/images/logo.png
+    - assets/images/logo_black.png
     - assets/images/icons/Home_ico.svg
     - assets/images/icons/Planner_ico.svg
     - assets/images/icons/Feed_ico.svg
     - assets/images/icons/Calendar_ico.svg
     - assets/images/icons/More_ico.svg
+    - assets/images/icons/Diet_ico.svg
+    - assets/images/icons/Users_ico.svg
+    - assets/images/icons/Workout_planner_ico.svg
+    - assets/images/seamlessbg.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -83,11 +93,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  fonts:
+    - family: DejaVuSans
+      fonts:
+        - asset: fonts/DejaVuSans.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:

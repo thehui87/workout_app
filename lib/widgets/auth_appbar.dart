@@ -45,7 +45,7 @@ class AuthAppBar extends StatelessWidget implements PreferredSizeWidget {
       title: Row(
         children: [
           Image.asset(
-            'images/logo.png', // Replace with your logo asset path
+            'assets/images/logo.png', // Replace with your logo asset path
             height: 40, // Adjust height as needed
           ),
           SizedBox(width: 10), // Space between logo and title
